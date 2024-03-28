@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  font-family: "Josefin Sans";
+}
+.container {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr ;
+  background-color: #ffff;
+  padding: 1rem;
+  gap: 10px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+}
+.mainDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.typeInp {
+  border: none;
+}
+.container input{
+      width: 100%;
+    }
+
+/* main.css */
+
+/* Custom checkbox styles */
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 0.5px solid rgba(227, 228, 241, 1);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    
+  
+  }
+  input[type="checkbox"]:checked{
+    background: url(/src/img/TopMain.img/checked.svg);
+    
+  }
+  @media(width > 410px){
+    .container{
+      display: flex;
+      width: 50%;
+      margin: 2%;
+    }
+   
+    
+  }
+  @media(width > 810px){
+    .container{
+      max-width: 405px;
+    }
+   
+  }
+ 

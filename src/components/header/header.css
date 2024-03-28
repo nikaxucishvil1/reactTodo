@@ -1,0 +1,21 @@
+.mainDivHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  padding-top: 2rem !important;
+}
+.icon {
+  font-size: 25px;
+  color: #fff;
+}
+button {
+  background: inherit;
+  border: none;
+}
+@media(width > 410px){
+  .mainDivHeader{
+    justify-content: space-evenly;
+    
+  }
+}
